@@ -1,0 +1,76 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(157deg,#c17777,#699de7);
+}
+.box{
+    width: 190px;
+    border-radius: 5%;
+    height: 260px;
+    border: 2px solid black;
+    background-color: black;
+}
+h1{
+    color: white;
+}
+.line1,.line2,.line3,.line4,.line5{
+    display: flex;
+}
+
+span{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(98, 92, 102);
+    padding: 3px;
+    margin: 5px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+input{
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 170px;
+    height: 30px;
+    padding: 2px;
+    margin:5px;
+    text-align: right;
+    cursor: pointer;
+    box-shadow: 3px 1px 25px 2px rgb(103, 86, 86);
+}
+.oper,.material-symbols-outlined{
+    color: black;
+    background-color: rgb(249, 201, 143);
+}
+.equal{
+    background-color: rgb(248, 152, 34);
+}
+input::placeholder{
+    color: white;
+    
+}
+.material-symbols-outlined:hover{
+    background-color: blanchedalmond;
+    box-shadow: 0px 3px 15px blanchedalmond;
+}
+.oper:hover{
+    background-color: blanchedalmond;
+    box-shadow: 0px 3px 15px blanchedalmond;
+}
+.equal:hover{
+    background-color: rgb(255, 102, 0);
+    box-shadow: 5px 5px 20px rgb(255, 102, 0);
+}
+span:hover{
+    background-color: rgb(75, 59, 85);
+    box-shadow: 0px 3px 15px rgb(221, 209, 228);
+}
